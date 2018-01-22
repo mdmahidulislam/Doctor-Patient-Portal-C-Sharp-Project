@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.75, 8.5" name="DoctorPatient">
+  <DataContextMoniker Name="/DoctorPatientDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1bc8f482-cefa-4021-adbe-d5deee39c64d" absoluteBounds="0.5, 0.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/DoctorPatientDataContext/Admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a3244c1d-c66d-4059-a379-9a3b1b6201b9" absoluteBounds="0.515, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6496c440-3c6f-4d3c-a08b-1ea3e2fd455c" absoluteBounds="3, 0.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/DoctorPatientDataContext/Doctor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d5eb186-66f0-4d00-a910-75bb1b875ed1" absoluteBounds="3.0150000000000006, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7cd4fdf7-980a-4709-a8a6-b5dd5146ae35" absoluteBounds="5.625, 0.5, 2, 5.4246240234375">
+      <DataClassMoniker Name="/DoctorPatientDataContext/DoctorAvailable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="89b17353-8d3a-4c07-9f09-bf5cb0a559fe" absoluteBounds="5.64, 0.96, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="390aeca7-fd3d-4700-9aa0-6db0815a8412" absoluteBounds="8, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DoctorPatientDataContext/DoctorBooking" />
+      <nestedChildShapes>
+        <elementListCompartment Id="78f36e61-e4f5-44fd-86c9-976ea84c8189" absoluteBounds="8.015, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0f35a4b6-7977-4aca-86d8-0d4d1de313cb" absoluteBounds="10.5, 0.625, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/DoctorPatientDataContext/Patient" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b7619c88-f580-4c62-8f94-00739e4c6858" absoluteBounds="10.515, 1.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

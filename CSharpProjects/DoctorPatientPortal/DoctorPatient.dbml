@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DoctorPatient" Class="DoctorPatientDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DoctorPatient.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="DoctorPatientPortal.Properties.Settings" SettingsPropertyName="DoctorPatientConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Admin" Member="Admins">
+    <Type Name="Admin">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="First_Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Last_Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email_ID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Contact_Number" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Blood_Group" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Birth_Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Photo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Doctor" Member="Doctors">
+    <Type Name="Doctor">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="First_Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Last_Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email_ID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Contact_Number" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Blood_Group" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Birth_Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Photo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DoctorAvailable" Member="DoctorAvailables">
+    <Type Name="DoctorAvailable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FromTime1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromTime2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromTime3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromTime4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromTime5" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromTime6" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromTime7" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromTime8" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromTime9" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromTime10" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FromTime11" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime5" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime6" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime7" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime8" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime9" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime10" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DoctorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CurrentDateTime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DoctorBooking" Member="DoctorBookings">
+    <Type Name="DoctorBooking">
+      <Column Name="BookingId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DrId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BookingTime" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BookingDate" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Patient" Member="Patients">
+    <Type Name="Patient">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="First_Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Last_Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email_ID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Contact_Number" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Blood_Group" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Birth_Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Photo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>

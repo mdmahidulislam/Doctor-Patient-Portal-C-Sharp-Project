@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DoctorPatientPortal.AdminClass" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAABAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdminClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.AdminDashBoard" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwAACgKARIBiPyBAAAjAABsAAAAAmEAAAACAAA=</HashCode>
+      <FileName>AdminDashBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.AdminProfileUpdate" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cCAAAgQAASASABCSAACAAABCIBAIAAAAEGQAAQBAAIA=</HashCode>
+      <FileName>AdminProfileUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.CheckUserTypeClass" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgBAA=</HashCode>
+      <FileName>CheckUserTypeClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.DoctorAppoinmentDetails" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACAAAAAACAAQACAAgIAAAAAEAAAEAAAIA=</HashCode>
+      <FileName>DoctorAppoinmentDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.DoctorClass" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAAAAAAAAAAAAAEACBAAAAgAAAAAAAIoAAAAA=</HashCode>
+      <FileName>DoctorClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.DoctorDashBoard" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgAACACABARABSAAAACAAA4AAQAAGAAAAAAAAA=</HashCode>
+      <FileName>DoctorDashBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.DoctorPatientDataContext" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAEAACAAAAAABAQBFACCEABAAB0gABQQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.Doctor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARoiGAgBAAAQSGCAQAWsAEKVvCgAAAISASBAMMgfIAc=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DoctorPatientPortal.Admin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABoiGAgBAAAQQGCAQAWsAEKRnCgAAAASASBAMMAfIAM=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DoctorPatientPortal.Patient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARoiGAgBAAAQSGCAQAWsAEKRnCgAAAISASBAMMAfIAc=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DoctorPatientPortal.DoctorBooking" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgAAABCAEIAKkgQAkAAAAhiCAAADQAABQkABGACAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DoctorPatientPortal.DoctorAvailable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAiSQCBARCIQJKAQAdgoIAFnGECEQwEIVCYdzj2TxA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DoctorPatientPortal.DoctorProfile" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cCAAAAQAASACABCSAACAAABSIQAIAIAAEGAAAQBAAIA=</HashCode>
+      <FileName>DoctorProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.DoctorRegistrationForm" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8yAAAQAAACACABCSACCAAARCABAYAAAAEGAACQFAAAA=</HashCode>
+      <FileName>DoctorRegistrationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.MainWindowForm" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAACAAABAQIAiAAAACCBAcIAgAEGACASBAAgA=</HashCode>
+      <FileName>MainWindowForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.PatientAppoinmentDetails" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACAAAAAACAAAACAAgIAAABAEABAAAAAAA=</HashCode>
+      <FileName>PatientAppoinmentDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.PatientClass" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAEAAAAACIAABCAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>PatientClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.PatientDashBoard" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAADACABAAgAyAAABCAEg8AAAAEHAIAAAAAAA=</HashCode>
+      <FileName>PatientDashBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.PatientProfile" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cCAAAAQAASACABCSABCAAABiIAAIAAAAEGAAAQBAAIA=</HashCode>
+      <FileName>PatientProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.PatientRegistrationForm" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8yAAAAgAACAAABCSAACAAARDQBAYAAAAEGQCAQFAAAA=</HashCode>
+      <FileName>PatientRegistrationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.Program" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.ViewOrDeleteDoctor" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAASACABCAGACAAABCIAA4AAAAEHAAAAAAIIA=</HashCode>
+      <FileName>ViewOrDeleteDoctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAgAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoctorPatientPortal.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
